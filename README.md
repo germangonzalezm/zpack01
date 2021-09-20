@@ -73,13 +73,20 @@ Una de las más fáciles es creando un nuevo INSPECTION, como sigue.
 
 ![image](https://user-images.githubusercontent.com/89666916/134058090-267bf066-61e4-4686-a390-7de6db9600f9.png)
 
+![image](https://user-images.githubusercontent.com/89666916/134069775-81af6286-40e9-4a17-83ff-2a425c63807d.png)
  
+![image](https://user-images.githubusercontent.com/89666916/134069810-6566729a-c8ab-407f-85c8-91132e567c37.png)
 
- 
+![image](https://user-images.githubusercontent.com/89666916/134069845-252ff6c8-2ce8-4db3-9fce-3294316ca532.png)
+
+
+
  
 El resultado muestra un loop dentor de un looop:
 Otra forma de visualizar el resultado:
  
+![image](https://user-images.githubusercontent.com/89666916/134069882-278cdc47-9312-411e-b685-393a09953d75.png)
+
 
 Después de la ejecución, el desarrollador puede reparar lo que sea necesario y volver a ejecutar.
 
@@ -90,27 +97,33 @@ Tambien se puede ajustar la prioridad de los mensajes SCI. Algunos cheques que c
 Como se hace?
 Primero, estando en la pantalla principal
  
+![image](https://user-images.githubusercontent.com/89666916/134069929-8aaac57b-efe8-4156-b2b2-1037268d528e.png)
 
+![image](https://user-images.githubusercontent.com/89666916/134069966-5853fff0-3e8f-43f1-9b96-ccf661656870.png)
  
 
 
 Si se encuentra en la pantalla principal de SCI, elija la entrada del menú Inspector de código / Gestión de / Prioridades de mensajes, llegará a la pantalla para ajustar y afinar las prioridades:
- 
+
+![image](https://user-images.githubusercontent.com/89666916/134069999-552561b5-afce-4b2d-88a5-b3de3db739ea.png)
+
 Luego de esto podemos modificar el tipo de mensaje.
  
+![image](https://user-images.githubusercontent.com/89666916/134070035-a2c742bc-cae9-4a15-934f-e5c45e079699.png)
+
 
 ## Algunos  controles SCI a considerar
-* 1.	Cumple nomenclatura CyT (Nombre de Programa y/o Transacción)
-* 2.	Carátula informativa completa dentro del programa
-* 3.	3.	Contiene las sentencias AUTHORITY-CHECK correspondientes
-* 4.	Inexistencia parámetro DUMMY en el AUTHORITY-CHECK
-* 5.	Inexistencia de sentencias SELECT * en el programa
-* 6.	Inexistencia de sentencias SELECT  dentro de ciclos LOOP/ENDLOOP (Trabajar con tablas internas)
-* 7.	Revisión de inexistencia de sentencias INSERT, UPDATE, MODIFY y DELETE a tablas estándar dentro del programa
-* 8.	No están permitidas las lecturas a tablas internas (READ TABLE) sin la búsqueda binaria (BINARY SEARCH) o INDEX.
-* 9.	Análisis de la condición WHERE para SELECT
-* 10.	Búsqueda SELECT.. FOR ALL ENTRIES con tabla interna vacía
-* 11.	No permitir código muerto en los programas nuevos Convención de Nombres
+1.	Cumple nomenclatura CyT (Nombre de Programa y/o Transacción)
+2.	Carátula informativa completa dentro del programa
+3.	Contiene las sentencias AUTHORITY-CHECK correspondientes
+4.	Inexistencia parámetro DUMMY en el AUTHORITY-CHECK
+5.	Inexistencia de sentencias SELECT * en el programa
+6.	Inexistencia de sentencias SELECT  dentro de ciclos LOOP/ENDLOOP (Trabajar con tablas internas)
+7.	Revisión de inexistencia de sentencias INSERT, UPDATE, MODIFY y DELETE a tablas estándar dentro del programa
+8.	No están permitidas las lecturas a tablas internas (READ TABLE) sin la búsqueda binaria (BINARY SEARCH) o INDEX.
+9.	Análisis de la condición WHERE para SELECT
+10.	Búsqueda SELECT.. FOR ALL ENTRIES con tabla interna vacía
+11.	No permitir código muerto en los programas nuevos Convención de Nombres
 
 
 ## Herramienta SCI y migración S/4 HANA
