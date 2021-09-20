@@ -4,9 +4,12 @@
 ### El Code Inspector SAP es una herramienta entregada por SAP para inspeccionar rápidamente el código ABAP personalizado.
 
 * ¿Por qué utilizar el Code Inspector SAP?
-* ¿Cómo configurar el inspector de código SAP?
-* ¿Qué controles SCI se recomiendan en general?
-* ¿Qué comprobaciones de SCI son imprescindibles para la preparación de S / 4 HANA?
+* ¿Cómo configurar el Code Inspector SAP?
+* Establecer la variante como variante SCI POR DEFECTO
+* Ejecutando la herramienta SCI
+* Ajuste de la prioridad del mensaje SCI
+* Algunos  controles SCI a considerar
+* Herramienta SCI y migración S/4 HANA
 
 ## ¿Por qué utilizar el Code Inspector SAP?
 
