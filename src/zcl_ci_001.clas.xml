@@ -1,0 +1,855 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CI_001</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Code Inspector: Advanced Name Conventions</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>000</KEY>
+     <ENTRY>1.- Valida Nombre de Programa</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>013</KEY>
+     <ENTRY>Invalid Name &amp;1 for DEFINE</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>014</KEY>
+     <ENTRY>Invalid Name &amp;1 for TYPES (Global)</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>015</KEY>
+     <ENTRY>Invalid Name &amp;1 for TYPES (Local)</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>016</KEY>
+     <ENTRY>Invalid Name &amp;1 for CONSTANTS (Global)</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>017</KEY>
+     <ENTRY>Invalid Name &amp;1 for CONSTANTS (Local)</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>018</KEY>
+     <ENTRY>Invalid Name &amp;1 for DATA (Global)</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>019</KEY>
+     <ENTRY>Invalid name &amp;1 for DATA/RANGES (local)</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>020</KEY>
+     <ENTRY>Invalid Name &amp;1 for FIELD-SYMBOLS (Global)</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>021</KEY>
+     <ENTRY>Invalid Name &amp;1 for FIELD-SYMBOLS (Local)</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>022</KEY>
+     <ENTRY>Invalid Name &amp;1 for PARAMETER(S)</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>023</KEY>
+     <ENTRY>Invalid Name &amp;1 for SELECT-OPTIONS</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>024</KEY>
+     <ENTRY>Invalid Name &amp;1 for FIELD-GROUPS</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>025</KEY>
+     <ENTRY>Invalid Name &amp;1 for INTERFACE (Global)</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>026</KEY>
+     <ENTRY>Invalid Name &amp;1 for CLASS (Global)</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>027</KEY>
+     <ENTRY>Invalid name &amp;1 for type definition in classes</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>028</KEY>
+     <ENTRY>Invalid name &amp;1 for constants of classes</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>029</KEY>
+     <ENTRY>Invalid name &amp;1 for instance attributes of classes</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>030</KEY>
+     <ENTRY>Invalid name &amp;1 for static attributes of classes</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>031</KEY>
+     <ENTRY>Invalid name &amp;1 for EVENTS</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>032</KEY>
+     <ENTRY>Invalid name &amp;1 for METHODS</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>033</KEY>
+     <ENTRY>Invalid Name &amp;1 for INTERFACE (Local)</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>034</KEY>
+     <ENTRY>Invalid Name &amp;1 for CLASS (Local)</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>041</KEY>
+     <ENTRY>Invalid Name &amp;1 for IMPORTING Parameter (METHODS)</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>042</KEY>
+     <ENTRY>Invalid Name &amp;1 for EXPORTING Parameter (METHODS)</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>043</KEY>
+     <ENTRY>Invalid Name &amp;1 for CHANGING Parameter (METHODS)</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>044</KEY>
+     <ENTRY>Invalid Name &amp;1 for RETURNING Parameter (METHODS)</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>045</KEY>
+     <ENTRY>Invalid Name &amp;1 for FUNCTION</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>046</KEY>
+     <ENTRY>Invalid Name &amp;1 for IMPORTING Parameter (FUNCTION)</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>047</KEY>
+     <ENTRY>Invalid Name &amp;1 for EXPORTING Parameter (FUNCTION)</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>048</KEY>
+     <ENTRY>Invalid name &amp;1 for CHANGING parameter (FUNCTION)</ENTRY>
+     <LENGTH>53</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>049</KEY>
+     <ENTRY>Invalid name &amp;1 for TABLES parameter (FUNCTION)</ENTRY>
+     <LENGTH>54</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>050</KEY>
+     <ENTRY>Invalid Name &amp;1 for FORM</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>051</KEY>
+     <ENTRY>Invalid name &amp;1 for USING parameter (FORM)</ENTRY>
+     <LENGTH>46</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>052</KEY>
+     <ENTRY>Invalid name &amp;1 for CHANGING parameter (FORM)</ENTRY>
+     <LENGTH>49</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>053</KEY>
+     <ENTRY>Invalid name &amp;1 for TABLES parameter (FORM)</ENTRY>
+     <LENGTH>47</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>054</KEY>
+     <ENTRY>Inconsistent name &amp;1 for PROGRAM/REPORT</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>055</KEY>
+     <ENTRY>Inconsistent name &amp;1 for FUNCTION-POOL</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>058</KEY>
+     <ENTRY>Invalid Name &amp;1 for EXPORTING Parameter (EVENTS)</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>059</KEY>
+     <ENTRY>Syntax error; analysis canceled</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>060</KEY>
+     <ENTRY>Could not resolve symbol &amp;1</ENTRY>
+     <LENGTH>39</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>54B</KEY>
+     <ENTRY>Invalid name &amp;1 for PROGRAM/REPORT</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>55B</KEY>
+     <ENTRY>Invalid name &amp;1 for FUNCTION-POOL</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>E20</KEY>
+     <ENTRY>Invalid name &amp;1 for STATICS (local)</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>I27</KEY>
+     <ENTRY>Invalid name &amp;1 for type definition of interfaces</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>I28</KEY>
+     <ENTRY>Invalid name &amp;1 for constants of interfaces</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>I29</KEY>
+     <ENTRY>Invalid name &amp;1 for instance attributes of interfaces</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>I30</KEY>
+     <ENTRY>Invalid name &amp;1 for static attributes of interfaces</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>000</KEY>
+       <ENTRY>Erweiterte Namenskonventionen für Programme</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>013</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für DEFINE</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>014</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für TYPES (global)</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>015</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für TYPES (lokal)</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>016</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für CONSTANTS (global)</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>017</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für CONSTANTS (lokal)</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>018</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für DATA (global)</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>019</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für DATA/RANGES (lokal)</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>020</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für FIELD-SYMBOLS (global)</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für FIELD-SYMBOLS (lokal)</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für PARAMETER(S)</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>023</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für SELECT-OPTIONS</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>024</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für FIELD-GROUPS</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>025</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für INTERFACE (global)</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>026</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für CLASS (global)</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>027</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für Typdefinition in Klassen</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>028</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für Konstanten von Klassen</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>029</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für Instanzattribute von Klassen</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>030</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für statischen Attributen von Klassen</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>031</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für EVENTS</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>032</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für METHODS</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>033</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für INTERFACE (lokal)</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>034</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für CLASS (lokal)</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>041</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für IMPORTING-Parameter (METHODS)</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>042</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für EXPORTING-Parameter (METHODS)</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>043</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für CHANGING-Parameter  (METHODS)</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>044</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für RETURNING-Parameter (METHODS)</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>045</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für FUNCTION</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>046</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für IMPORTING-Parameter (FUNCTION)</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>047</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für EXPORTING-Parameter (FUNCTION)</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>048</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für CHANGING-Parameter (FUNCTION)</ENTRY>
+       <LENGTH>53</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>049</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für TABLES-Parameter (FUNCTION)</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>050</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für FORM</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>051</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für USING-Parameter (FORM)</ENTRY>
+       <LENGTH>46</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>052</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für CHANGING-Parameter (FORM)</ENTRY>
+       <LENGTH>49</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>053</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für TABLES-Parameter (FORM)</ENTRY>
+       <LENGTH>47</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>054</KEY>
+       <ENTRY>Inkonsistenter Name &amp;1 PROGRAM/REPORT</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>055</KEY>
+       <ENTRY>Inkonsistenter Name &amp;1 FUNCTION-POOL</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>058</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für EXPORTING-Parameter (EVENTS)</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>059</KEY>
+       <ENTRY>Syntax-Fehler. Die Analyse wurde abgebrochen</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>060</KEY>
+       <ENTRY>Symbol &amp;1 konnte nicht aufgelöst werden</ENTRY>
+       <LENGTH>39</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>54B</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 PROGRAM/REPORT</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>55B</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 FUNCTION-POOL</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>E20</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für STATICS (lokal)</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>I27</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für Typdefinition in Interfaces</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>I28</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für Konstanten von Interfaces</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>I29</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für Instanzattribute von Interfaces</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>I30</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für statischen Attributen von Interfaces</ENTRY>
+       <LENGTH>64</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <I18N_LINES>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+    </item>
+   </I18N_LINES>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>CHECK_ANY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handle inline declarations</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>CHECK_AT_SELECTION_SCREEN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handle AT SELECTION-SCREEN</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>CHECK_CLASS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Test the statement CLASS</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>CHECK_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Test data objects</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>CHECK_DATA_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Test the type of a data object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>CHECK_DEFINE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Test the statement DEFINE</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>CHECK_EVENTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Test the statement EVENTS</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>CHECK_FORM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Test the statement FORM</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>CHECK_FUNCTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Test the statement FUNCTION</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>CHECK_FUNCTION_POOL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Test the statement FUNCTION-POOL</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>CHECK_FUNCTION_SIGNATURE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Test the signature of a FUNCTION</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>CHECK_GENERAL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>General Check</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>CHECK_INTERFACE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Test the statement INTERFACE</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>CHECK_METHOD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Test the statement METHOD</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>CHECK_METHODS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Test the statement METHODS</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>CHECK_MODULE_LOCAL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Test for Procedure Local Identifiers</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>CHECK_NAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Test a name</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>CHECK_PROGRAM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Test the statement PROGRAM</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>CHECK_SET</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Process SET EXTENDED CHECK ON/OFF</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>CHECK_TYPEPOOL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Test the statement TYPE-POOL</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>COMP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Cross Reference of an ABAP Program</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Constructor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>C_CLASS_DEFER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Symbol: CLASS DEFERRED</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>C_CLASS_DEF_GLOB</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Symbol: CLASS DEFINITION (Global)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>C_CLASS_DEF_LOC</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Symbol: CLASS DEFINITION (Local)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>C_CLASS_FRIENDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Symbol: CLASS DEFINITION FRIENDS</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>C_CLASS_IMPL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Symbol: CLASS IMPLEMENTATION</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>C_CLASS_LOAD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Symbol: CLASS DEFINITION LOAD</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>C_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ID of Message</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>GET_CLASS_STMT_KIND</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get the type of the CLASS statement</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>GET_INTERFACE_STMT_KIND</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get the type of the INTERFACE statement</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>GET_SUPER_CLASS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get the superclass</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>IGNORE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CHAR01 Data Element for SYST</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>INIT_PREFIXES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Validate/correct prefixes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>M_SETUP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Configuration of Test for Extended Naming Conventions</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>QUALIFIED_TOKENS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: Tokens Table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>QUALIFY_STATEMENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Token Qualification</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>RAISE_MESSAGE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Issue message</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>STATEMENT_FROM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Work Area: From Index</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>STATEMENT_INDEX</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Work Area: Current Index</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_001</CLSNAME>
+     <CMPNAME>STATEMENT_TO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Work Area: To Index</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
