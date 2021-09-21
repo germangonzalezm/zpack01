@@ -1,0 +1,1419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CI_002</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Code Inspector: Naming Conventions</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>000</KEY>
+     <ENTRY>2.- Convención de nombres objetos internos</ENTRY>
+     <LENGTH>76</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Program Global</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Proced.Local</ENTRY>
+     <LENGTH>14</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Global Classes/Interfaces</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>Local Classes/Interfaces</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>005</KEY>
+     <ENTRY>Method Parameters</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>006</KEY>
+     <ENTRY>Functions</ENTRY>
+     <LENGTH>10</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>007</KEY>
+     <ENTRY>IMPORTING Parameter</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>008</KEY>
+     <ENTRY>EXPORTING Parameter</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>009</KEY>
+     <ENTRY>CHANGING Parameter</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>010</KEY>
+     <ENTRY>TABLES Parameter</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>011</KEY>
+     <ENTRY>USING Parameter</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>012</KEY>
+     <ENTRY>Naming Conventions for ABAP Objects</ENTRY>
+     <LENGTH>35</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>013</KEY>
+     <ENTRY>Invalid Name &amp;1 for DEFINE</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>014</KEY>
+     <ENTRY>Invalid Name &amp;1 for TYPES (Global)</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>015</KEY>
+     <ENTRY>Invalid Name &amp;1 for TYPES (Local)</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>016</KEY>
+     <ENTRY>Invalid Name &amp;1 for CONSTANTS (Global)</ENTRY>
+     <LENGTH>42</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>017</KEY>
+     <ENTRY>Invalid Name &amp;1 for CONSTANTS (Local)</ENTRY>
+     <LENGTH>41</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>018</KEY>
+     <ENTRY>Invalid Name &amp;1 for DATA (Global)</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>019</KEY>
+     <ENTRY>Invalid Name &amp;1 for DATA/STATICS (Local)</ENTRY>
+     <LENGTH>44</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>020</KEY>
+     <ENTRY>Invalid Name &amp;1 for FIELD-SYMBOLS (Global)</ENTRY>
+     <LENGTH>46</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>021</KEY>
+     <ENTRY>Invalid Name &amp;1 for FIELD-SYMBOLS (Local)</ENTRY>
+     <LENGTH>45</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>022</KEY>
+     <ENTRY>Invalid Name &amp;1 for PARAMETER(S)</ENTRY>
+     <LENGTH>36</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>023</KEY>
+     <ENTRY>Invalid Name &amp;1 for SELECT-OPTIONS</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>024</KEY>
+     <ENTRY>Invalid Name &amp;1 for FIELD-GROUPS</ENTRY>
+     <LENGTH>36</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>025</KEY>
+     <ENTRY>Invalid Name &amp;1 for INTERFACE (Global)</ENTRY>
+     <LENGTH>42</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>026</KEY>
+     <ENTRY>Invalid Name &amp;1 for CLASS (Global)</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>027</KEY>
+     <ENTRY>Invalid Name &amp;1 for TYPES (Global Class)</ENTRY>
+     <LENGTH>46</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>028</KEY>
+     <ENTRY>Invalid Name &amp;1 for CONSTANTS (Global Class)</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>029</KEY>
+     <ENTRY>Invalid Name &amp;1 for DATA (Global Class)</ENTRY>
+     <LENGTH>45</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>030</KEY>
+     <ENTRY>Invalid Name &amp;1 for CLASS-DATA (Global Class)</ENTRY>
+     <LENGTH>51</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>031</KEY>
+     <ENTRY>Invalid Name &amp;1 for EVENTS (Global Class)</ENTRY>
+     <LENGTH>47</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>032</KEY>
+     <ENTRY>Invalid Name &amp;1 for METHODS (Global Class)</ENTRY>
+     <LENGTH>48</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>033</KEY>
+     <ENTRY>Invalid Name &amp;1 for INTERFACE (Local)</ENTRY>
+     <LENGTH>41</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>034</KEY>
+     <ENTRY>Invalid Name &amp;1 for CLASS (Local)</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>035</KEY>
+     <ENTRY>Invalid Name &amp;1 for TYPES (Local Class)</ENTRY>
+     <LENGTH>45</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>036</KEY>
+     <ENTRY>Invalid Name &amp;1 for CONSTANTS (Local Class)</ENTRY>
+     <LENGTH>49</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>037</KEY>
+     <ENTRY>Invalid Name &amp;1 for DATA (Local Class)</ENTRY>
+     <LENGTH>44</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>038</KEY>
+     <ENTRY>Invalid Name &amp;1 for CLASS-DATA (Local Class)</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>039</KEY>
+     <ENTRY>Invalid Name &amp;1 for EVENTS (Local Class)</ENTRY>
+     <LENGTH>46</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>040</KEY>
+     <ENTRY>Invalid Name &amp;1 for METHODS (Local Class)</ENTRY>
+     <LENGTH>47</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>041</KEY>
+     <ENTRY>Invalid Name &amp;1 for IMPORTING Parameter (METHODS)</ENTRY>
+     <LENGTH>53</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>042</KEY>
+     <ENTRY>Invalid Name &amp;1 for EXPORTING Parameter (METHODS)</ENTRY>
+     <LENGTH>53</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>043</KEY>
+     <ENTRY>Invalid Name &amp;1 for CHANGING Parameter (METHODS)</ENTRY>
+     <LENGTH>53</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>044</KEY>
+     <ENTRY>Invalid Name &amp;1 for RETURNING Parameter (METHODS)</ENTRY>
+     <LENGTH>53</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>045</KEY>
+     <ENTRY>Invalid Name &amp;1 for FUNCTION</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>046</KEY>
+     <ENTRY>Invalid Name &amp;1 for IMPORTING Parameter (FUNCTION)</ENTRY>
+     <LENGTH>54</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>047</KEY>
+     <ENTRY>Invalid Name &amp;1 for EXPORTING Parameter (FUNCTION)</ENTRY>
+     <LENGTH>54</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>048</KEY>
+     <ENTRY>Invalid Name &amp;1 for CHANGING Parameter (FUNCTION)</ENTRY>
+     <LENGTH>54</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>049</KEY>
+     <ENTRY>Invalid Name &amp;1 for TABLES Parameter (FUNCTION)</ENTRY>
+     <LENGTH>54</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>050</KEY>
+     <ENTRY>Invalid Name &amp;1 for FORM</ENTRY>
+     <LENGTH>28</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>051</KEY>
+     <ENTRY>Invalid Name &amp;1 for USING Parameter (FORM)</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>052</KEY>
+     <ENTRY>Invalid Name &amp;1 for CHANGING Parameter (FORM)</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>053</KEY>
+     <ENTRY>Invalid Name &amp;1 for TABLES Parameter    (FORM)</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>054</KEY>
+     <ENTRY>Invalid Name &amp;1 PROGRAM/REPORT</ENTRY>
+     <LENGTH>31</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>055</KEY>
+     <ENTRY>Invalid Name &amp;1 FUNCTION-POOL</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>056</KEY>
+     <ENTRY>Forms</ENTRY>
+     <LENGTH>5</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>057</KEY>
+     <ENTRY>Event Parameter</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>058</KEY>
+     <ENTRY>Invalid Name &amp;1 for EXPORTING Parameter (EVENTS)</ENTRY>
+     <LENGTH>52</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>059</KEY>
+     <ENTRY>Syntax error; analysis canceled</ENTRY>
+     <LENGTH>44</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>101</KEY>
+     <ENTRY>Settings</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>102</KEY>
+     <ENTRY>Scan Web Dynpro</ENTRY>
+     <LENGTH>48</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>000</KEY>
+       <ENTRY>Namenskonventionen</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Programm-Global</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Prozedur-Lokal</ENTRY>
+       <LENGTH>14</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Globale Klassen/Interfaces</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Lokale Klassen/Interfaces</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Methoden-Parameter</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Funktionen</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>IMPORTING-Parameter</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>008</KEY>
+       <ENTRY>EXPORTING-Parameter</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>009</KEY>
+       <ENTRY>CHANGING-Parameter</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>010</KEY>
+       <ENTRY>TABLES-Parameter</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>011</KEY>
+       <ENTRY>USING-Parameter</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>012</KEY>
+       <ENTRY>Namenskonventionen für ABAP-Objekte</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>013</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für DEFINE</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>014</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für TYPES (global)</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>015</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für TYPES (lokal)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>016</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für CONSTANTS (global)</ENTRY>
+       <LENGTH>42</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>017</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für CONSTANTS (lokal)</ENTRY>
+       <LENGTH>41</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>018</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für DATA (global)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>019</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für DATA/STATICS (lokal)</ENTRY>
+       <LENGTH>44</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>020</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für FIELD-SYMBOLS (global)</ENTRY>
+       <LENGTH>46</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für FIELD-SYMBOLS (lokal)</ENTRY>
+       <LENGTH>45</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für PARAMETER(S)</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>023</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für SELECT-OPTIONS</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>024</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für FIELD-GROUPS</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>025</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für INTERFACE (global)</ENTRY>
+       <LENGTH>42</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>026</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für CLASS (global)</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>027</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für TYPES (globale Klasse)</ENTRY>
+       <LENGTH>46</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>028</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für CONSTANTS (globale Klasse)</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>029</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für DATA (globale Klasse)</ENTRY>
+       <LENGTH>45</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>030</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für CLASS-DATA (globale Klasse)</ENTRY>
+       <LENGTH>51</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>031</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für EVENTS (globale Klasse)</ENTRY>
+       <LENGTH>47</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>032</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für METHODS (globale Klasse)</ENTRY>
+       <LENGTH>48</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>033</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für INTERFACE (lokal)</ENTRY>
+       <LENGTH>41</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>034</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für CLASS (lokal)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>035</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für TYPES (lokale Klasse)</ENTRY>
+       <LENGTH>45</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>036</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für CONSTANTS (lokale Klasse)</ENTRY>
+       <LENGTH>49</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>037</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für DATA (lokale Klasse)</ENTRY>
+       <LENGTH>44</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>038</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für CLASS-DATA (lokale Klasse)</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>039</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für EVENTS (lokale Klasse)</ENTRY>
+       <LENGTH>46</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>040</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für METHODS (lokale Klasse)</ENTRY>
+       <LENGTH>47</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>041</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für IMPORTING-Parameter (METHODS)</ENTRY>
+       <LENGTH>53</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>042</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für EXPORTING-Parameter (METHODS)</ENTRY>
+       <LENGTH>53</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>043</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für CHANGING-Parameter  (METHODS)</ENTRY>
+       <LENGTH>53</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>044</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für RETURNING-Parameter (METHODS)</ENTRY>
+       <LENGTH>53</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>045</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für FUNCTION</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>046</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für IMPORTING-Parameter (FUNCTION)</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>047</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für EXPORTING-Parameter (FUNCTION)</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>048</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für CHANGING-Parameter  (FUNCTION)</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>049</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für TABLES-Parameter    (FUNCTION)</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>050</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für FORM</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>051</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für USING-Parameter     (FORM)</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>052</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für CHANGING-Parameter  (FORM)</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>053</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für TABLES-Parameter    (FORM)</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>054</KEY>
+       <ENTRY>Falscher Name &amp;1 PROGRAM/REPORT</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>055</KEY>
+       <ENTRY>Falscher Name &amp;1 FUNCTION-POOL</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>056</KEY>
+       <ENTRY>Forms</ENTRY>
+       <LENGTH>5</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>057</KEY>
+       <ENTRY>Ereignis-Parameter</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>058</KEY>
+       <ENTRY>Unerlaubter Name &amp;1 für EXPORTING-Parameter (EVENTS)</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>059</KEY>
+       <ENTRY>Syntax-Fehler. Die Analyse wurde abgebrochen</ENTRY>
+       <LENGTH>44</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>101</KEY>
+       <ENTRY>Einstellungen</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>102</KEY>
+       <ENTRY>Web Dynpro scannen</ENTRY>
+       <LENGTH>48</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <I18N_LINES>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+    </item>
+   </I18N_LINES>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>CHECK_CLASS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check for CLASS</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>CHECK_DATA_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check for DATA/TYPE</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>CHECK_DEFINE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check for DEFINE</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>CHECK_EVENTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check for EVENTS</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>CHECK_FORM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check for FORM</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>CHECK_FUNCTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check for FUNCTION</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>CHECK_FUNCTION_POOL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check for FUNCTION-POOL</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>CHECK_FUNCTION_SIGNATURE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check for FUNCTION</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>CHECK_GENERAL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>General Check</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>CHECK_INTERFACE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check for INTERFACE</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>CHECK_METHOD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check for METHOD</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>CHECK_METHODS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check for METHODS</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>CHECK_PROGRAM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check for PROGRAM</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>CHECK_TYPEPOOL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check for TYPE-POOL</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Constructor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_DEFINE_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_EVNT_EXP_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_FLDGRP_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_FORM_CHG_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_FORM_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_FORM_TAB_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_FORM_USI_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_FUNCTION_POOL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_FUNC_CHG_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_FUNC_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_FUNC_EXP_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_FUNC_IMP_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_FUNC_TAB_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_GLOB_CLS_CLASSDATA_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_GLOB_CLS_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_GLOB_CLS_CONSTANT_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_GLOB_CLS_DATA_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_GLOB_CLS_EVENT_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_GLOB_CLS_METH_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_GLOB_CLS_TYPE_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_GLOB_CONSTANT_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_GLOB_DATA_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_GLOB_FS_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_GLOB_INTF_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_GLOB_TYPE_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_LOC_CLS_CLASSDATA_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_LOC_CLS_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_LOC_CLS_CONSTANT_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_LOC_CLS_DATA_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_LOC_CLS_EVENT_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_LOC_CLS_METH_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_LOC_CLS_TYPE_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_LOC_CONSTANT_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_LOC_DATA_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_LOC_FS_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_LOC_INTF_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_LOC_TYPE_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_METH_CHG_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_METH_EXP_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_METH_IMP_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_METH_RET_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_MY_NAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Object Type Name</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_PARAM_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_PROGRAM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>C_SELOPT_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: ID for Message Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>DEFINE_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>EVNT_EXP_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>FLDGRP_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>FORM_CHG_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>FORM_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>FORM_TAB_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>FORM_USI_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>FUNC_CHG_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>FUNC_EXP_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>FUNC_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>FUNC_IMP_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>FUNC_TAB_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>GET_CLASS_STMT_KIND</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Type of CLASS Statement</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>GET_INTERFACE_STMT_KIND</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Type of INTERFACE Statement</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>GLOB_CLS_CLASSDATA_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>GLOB_CLS_CONSTANT_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>GLOB_CLS_DATA_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>GLOB_CLS_EVENT_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>GLOB_CLS_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>GLOB_CLS_METH_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>GLOB_CLS_TYPE_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>GLOB_CONSTANT_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>GLOB_DATA_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>GLOB_FS_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>GLOB_INTF_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>GLOB_TYPE_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>IGNORE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CHAR01 Data Element for SYST</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>LOC_CLS_CLASSDATA_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>LOC_CLS_CONSTANT_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>LOC_CLS_DATA_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>LOC_CLS_EVENT_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>LOC_CLS_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>LOC_CLS_METH_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>LOC_CLS_TYPE_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>LOC_CONSTANT_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>LOC_DATA_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>LOC_FS_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>LOC_INTF_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>LOC_TYPE_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>METH_CHG_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>METH_EXP_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>METH_IMP_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>METH_RET_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>PARAM_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>QUALIFIED_TOKENS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Inspector: Tokens Table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>QUALIFY_STATEMENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Token Qualification</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CI_002</CLSNAME>
+     <CMPNAME>SELOPT_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range of SCI_ABAPID</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
